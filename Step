@@ -1,0 +1,13 @@
+#開啟Terminal 輸入下列指令 
+git clone https://github.com/austin0516/(資料夾名稱)
+#下載在GitHub指定資料夾所有檔案到本機
+
+#於本機端修改編輯好檔案之後，，在Terminal同個路徑資料夾輸入下列指令
+git add *
+#選取所有資料夾和檔案
+
+git commit -m "upload 2018/05/18 Django files"
+#準備commit到GitHub，雙引號裡面輸入自行的LOG紀錄
+
+git push origin master
+#上傳至當初git clone https://github.com/austin0516/(資料夾名稱)
